@@ -6,16 +6,27 @@
 
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
+$mega-font-size: 100px;
+$h1-font-size: 70px;
+$h2-font-size: 40px;
+$h3-font-size: 30px;
+$h4-font-size: 24px;
+
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$text-color:       #333;
+$background-color: #fefef3;
+$brand-color:      #fe5f55;
+
+$blue-color: #92b5bd;
+$yellow-color: #ede24e;
+$red-color: #df6d59;
+$purple-color: #6b2339;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
