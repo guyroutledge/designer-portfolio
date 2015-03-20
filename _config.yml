@@ -1,14 +1,27 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Design Portfolio
+email: mail@guyroutledge.co.uk
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Freelance web designer and developer, specialising in Jekyll, 
+  HTML, CSS and Javascript
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://example.com" # the base hostname & protocol for your site
+
+twitter_username: guyroutledge
+github_username:  guyroutledge
+google_username: guyroutledge
+
+permalink: /:categories/:title
+
+links:
+  - title: about
+    url: /about
+  - title: work
+    url: /work
+  - title: articles
+    url: /articles
+  - title: hire me
+    url: /hire-me
 
 # Build settings
 markdown: kramdown
