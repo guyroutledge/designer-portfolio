@@ -4,6 +4,7 @@ title:  "Dolentibus herbarum"
 date:   2015-03-21 11:12:47
 categories: jekyll update
 featured: true
+tags: design
 ---
 
 ## Ille quoque

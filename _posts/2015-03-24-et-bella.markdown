@@ -4,6 +4,7 @@ title:  "Et bella"
 date:   2015-03-24 11:12:47
 categories: jekyll update
 featured: true
+tags: inspiration
 ---
 
 ## Clamant legebant novam grata igitur dixerat praestent
