@@ -5,6 +5,21 @@ layout: default
 <div class="home">
 
   <!-- section for featured post -->
+  <section class="site-section site-section-last">
+    <div class="wrapper">
+      <h1>featured article</h1>
+      {% assign count = 0 %}
+        {% for post in site.posts reversed %}
+          {% if post.featured == true and count < 1 %}
+            <div class="post post-featured">
+              {% include post.html %}
+            </div>
+            {% assign count = count | plus: 1 %}
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
   <!-- section for featured projects -->
   <!-- section for latest articles -->
   <section class="site-section site-section-last">
@@ -13,13 +28,7 @@ layout: default
       <ul class="post-list">
         {% for post in site.posts reversed | limit:4 %}
           <li class="post">
-            <h2>{{ post.title }}</h2>
-            <p>
-              {{ post.content | strip_html | strip_newlines | truncate: 200 }}
-            </p>
-            <p class="post-read-more-link">
-              <a href="#">read more...</a>
-            </p>
+            {% include post.html %}
           </li>
         {% endfor %}
       </ul>
