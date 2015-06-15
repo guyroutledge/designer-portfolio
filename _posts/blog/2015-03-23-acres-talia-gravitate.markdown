@@ -2,7 +2,7 @@
 layout: post
 title:  "Acres Talia gravitate"
 date:   2015-03-23 11:12:47
-categories: jekyll update
+categories: blog
 tags: layout design
 ---
 

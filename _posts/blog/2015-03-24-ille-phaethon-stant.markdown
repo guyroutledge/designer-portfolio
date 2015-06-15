@@ -2,7 +2,7 @@
 layout: post
 title:  "Ille Phaethon stant novandum suisque"
 date:   2015-03-21 11:12:47
-categories: jekyll update
+categories: blog
 tags: code
 ---
 

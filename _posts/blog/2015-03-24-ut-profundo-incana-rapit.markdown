@@ -2,7 +2,7 @@
 layout: post
 title:  "Ut profundo incana rapit"
 date:   2015-03-20 11:12:47
-categories: jekyll update
+categories: blog
 tags: code inspiration
 ---
 
