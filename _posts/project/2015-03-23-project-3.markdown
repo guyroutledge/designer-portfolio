@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Acres Talia gravitate"
+title:  "Project 3"
 date:   2015-03-23 11:12:47
 categories: project
+featured_image: "images/project.png"
 tags: layout design
 ---
 
