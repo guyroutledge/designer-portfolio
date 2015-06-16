@@ -3,7 +3,7 @@ layout: post
 title:  "Project 2"
 date:   2015-03-22 11:12:47
 categories: project
-featured_image: "images/project.png"
+featured_image: "/images/project.png"
 tags: snippet
 ---
 
